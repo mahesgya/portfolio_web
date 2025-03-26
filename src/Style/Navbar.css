@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Header {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  width: 96%;
+  top: 0;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.navContain {
+  background-image: url(Images/BackgroundHome.png);
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  border: none;
+}
+
+.navbarli {
+  background: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 200px;
+}
+
+.nav-img {
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2vh;
+  background-color: transparent; /* Warna awal */
+    transition: background-color 0.3s ease;
+}
+
+#navbar li {
+  list-style: none;
+  row-gap: 2em;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  color: #fff;
+  text-align: center;
+  font-family: "Potato sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.navbardiv a {
+  color: #ffff;
+}
+
+.navbardiv1 a {
+  color: #000;
+}
+
+.nav-Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 2.25rem;
+  right: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #687eff;
+  border-radius: 0.2rem;
+}
+
+.IoSearch {
+  width: 30px;
+  height: 30px;
+}
+
+.divCloseBtn {
+  display: none;
+}
+
+.logo-argy {
+  width: 150px;
+}
+
+.navbar.scrolled {
+  background-color: #27374d;
+  background: linear-gradient(135deg, #27374d, #5b80b3);
+}
+
+@media screen and (max-width: 769px) {
+  #Header {
+    padding: 15px 2%;
+    z-index: 99999;
+  }
+
+  .logo-argy {
+    width: 80px;
+  }
+
+  .menu {
+    display: flex;
+    top: 20px;
+    right: 25px;
+    width: 35px;
+    height: 30px;
+  }
+
+  .menu span {
+    height: 0.3rem;
+    width: 90%;
+    background-color: #ffff;
+    border-radius: 0.2rem;
+  }
+
+
+
+  #navbar.open > li {
+    text-align: left;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #navbar li {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+  }
+
+  #navbar li a {
+    margin: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .liHome {
+    padding-top: 20px;
+  }
+
+
+  .navbardiv {
+    align-self: center;
+  }
+
+  .navbarli{
+    color: #272727;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo-argy {
+    width: 60px;
+  }
+
+  #Header {
+    padding: 15px 2%;
+    z-index: 99999;
+  }
+
+  .nav-img {
+    width: 120px;
+  }
+
+  #navbar.open > li {
+    text-align: left;
+  }
+
+
+  #navbar li {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+  }
+
+  #navbar li a {
+    margin: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .logo-argy {
+    width: 80px;
+  }
+  #Header {
+    padding: 25px 2%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 150px;
+  }
+
+  .nav-img {
+    width: 190px;
+  }
+
+  #navbar {
+    row-gap: 1vh;
+  }
+
+  #navbar li {
+    row-gap: 1em;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
+  #navbar li a {
+    color: #fff;
+    text-align: center;
+    font-family: "Potato sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .navbardiv a {
+    color: #ffff;
+  }
+
+  .navbardiv1 a {
+    color: #000;
+  }
+
+  .nav-Login {
+    column-gap: 20px;
+  }
+
+  .IoSearch {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .logo-argy {
+    width: 110px;
+  }
+  #Header {
+    padding: 30px 2%;
+  }
+
+  .container {
+    column-gap: 170px;
+  }
+
+  .nav-img {
+    width: 220px;
+  }
+
+  #navbar {
+    row-gap: 1vh;
+  }
+
+  #navbar li {
+    row-gap: 1em;
+    padding: 0 10px;
+  }
+
+  #navbar li a {
+    color: #fff;
+    text-align: center;
+    font-family: "Potato sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .nav-Login {
+    column-gap: 20px;
+  }
+
+  .IoSearch {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  
+  .logo-argy {
+    width: 150px;
+  }
+  #Header {
+    padding: 35px 2%;
+  }
+
+  .container {
+    column-gap: 200px;
+  }
+
+  .nav-img {
+    width: 250px;
+  }
+
+  #navbar {
+    row-gap: 2vh;
+  }
+
+  #navbar li {
+    row-gap: 2em;
+    padding: 0 20px;
+  }
+
+  #navbar li a {
+    color: #fff;
+    text-align: center;
+    font-family: "Potato sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+
+  .nav-Login {
+    column-gap: 30px;
+  }
+
+  .IoSearch {
+    width: 30px;
+    height: 30px;
+  }
+}

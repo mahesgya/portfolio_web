@@ -1,0 +1,191 @@
+#sectionHome {
+  min-height: 680px;
+}
+
+.fullName {
+  color: #fff;
+  text-align: center;
+  font-family: "Anton";
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.frontEnd {
+  color: #fff;
+  text-align: center;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.containerHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.contactHome > a > img {
+  width: 30px;
+}
+
+.contactHome {
+  display: flex;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 769px) {
+  #sectionHome {
+    min-height: 350px;
+  }
+
+  .fullName {
+    font-size: 30px;
+  }
+
+  .frontEnd {
+    font-size: 25px;
+  }
+
+  .containerHome {
+    padding-top: 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contactHome > a > img {
+    width: 22px;
+  }
+
+  .contactHome {
+    display: flex;
+    column-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  #sectionHome {
+    min-height: 270px;
+  }
+
+  .fullName {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .frontEnd {
+    letter-spacing: 0.8px;
+    font-size: 14px;
+  }
+
+  .containerHome {
+    padding-top:90px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contactHome > a > img {
+    width: 20px;
+  }
+
+  .contactHome {
+    display: flex;
+    column-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #sectionHome {
+    min-height: 400px;
+  }
+
+  .fullName {
+    font-size: 35px;
+  }
+
+  .frontEnd {
+    font-size: 30px;
+  }
+
+  .containerHome {
+    padding-top: 120px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contactHome > a > img {
+    width: 24px;
+  }
+
+  .contactHome {
+    display: flex;
+    column-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  #sectionHome {
+    min-height: 550px;
+  }
+
+  .fullName {
+    font-size: 45px;
+  }
+
+  .frontEnd {
+    font-size: 35px;
+  }
+
+  .containerHome {
+    padding-top: 150px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contactHome > a > img {
+    width: 26px;
+  }
+
+  .contactHome {
+    display: flex;
+    column-gap: 7px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  #sectionHome {
+    min-height: 750px;
+  }
+
+  .fullName {
+    font-size: 65px;
+  }
+
+  .frontEnd {
+    font-size: 45px;
+  }
+
+  .containerHome {
+    padding-top: 220px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contactHome > a > img {
+    width: 30px;
+  }
+
+  .contactHome {
+    display: flex;
+    column-gap: 10px;
+  }
+}

@@ -1,0 +1,443 @@
+#Ormawa {
+  background-color: #dde6ed;
+  padding-top: 40px;
+}
+
+.h4AtasOrmawa {
+  color: #052659;
+  text-align: center;
+  font-family: "Potato sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h4AtasOrmawa > span {
+  color: #7da0ca;
+}
+
+.containerOrmawa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
+  padding: 10px 100px 10px 100px;
+}
+
+.containerAkuCuciin {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
+  padding: 10px 100px 50px 100px;
+}
+
+.leftOrmawa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.divOrmawa {
+  min-width: 180px;
+  border-radius: 80px;
+  background: linear-gradient(90deg, #7da0ca 0%, #052659 100%);
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divOrmawa > a {
+  color: #fff;
+  text-align: justify;
+  font-family: Anton;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rightOrmawa {
+  color: #373b4d;
+  text-align: justify;
+  font-family: Anton;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.imgOrmawa {
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), /* Bayangan utama */ 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.leftOrmawa > h4 {
+  font-family: Anton;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #052659;
+}
+
+.rightOrmawa2 {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  #Ormawa {
+    padding-top: 20px;
+  }
+
+  .h4AtasOrmawa {
+    font-size: 16px;
+  }
+
+  .containerOrmawa {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .containerAkuCuciin {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .leftOrmawa {
+    row-gap: 10px;
+  }
+
+  .divOrmawa {
+    min-width: 80px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 7px;
+    text-align: justify;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .divOrmawa > a {
+    font-size: 13px;
+  }
+
+  .rightOrmawa {
+    display: none;
+  }
+
+  .rightOrmawa2 {
+    display: flex;
+    font-size: 12px;
+    padding: 20px;
+    padding-top: 5px;
+    color: #373b4d;
+    text-align: justify;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+  .imgOrmawa {
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .leftOrmawa > h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  #Ormawa {
+    padding-top: 20px;
+  }
+
+  .h4AtasOrmawa {
+    font-size: 14px;
+  }
+
+  .containerOrmawa {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .containerAkuCuciin {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .leftOrmawa {
+    row-gap: 10px;
+  }
+
+  .divOrmawa {
+    min-width: 80px;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 7px;
+    text-align: justify;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .divOrmawa > a {
+    font-size: 13px;
+  }
+
+  .rightOrmawa {
+    display: none;
+  }
+
+  .rightOrmawa2 {
+    display: flex;
+    font-size: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    color: #373b4d;
+    text-align: justify;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+  .imgOrmawa {
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .leftOrmawa > h4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #Ormawa {
+    padding-top: 20px;
+  }
+
+  .h4AtasOrmawa {
+    font-size: 20px;
+  }
+
+  .containerOrmawa {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .containerAkuCuciin {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+  .leftOrmawa {
+    row-gap: 10px;
+  }
+
+  .divOrmawa {
+    min-width: 80px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 7px;
+    text-align: justify;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .divOrmawa > a {
+    font-size: 14px;
+  }
+
+  .rightOrmawa {
+    font-size: 16px;
+    padding: 20px;
+    padding-top: 5px;
+    color: #373b4d;
+    text-align: justify;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .imgOrmawa {
+    width: 380px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .leftOrmawa > h4 {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (min-width: 920px) {
+  #Ormawa {
+    padding-top: 20px;
+  }
+
+  .h4AtasOrmawa {
+    font-size: 28px;
+  }
+
+  .containerOrmawa {
+    padding: 20px 40px ;
+    display: flex;
+  }
+
+  .containerAkuCuciin {
+    padding: 20px 40px ;
+    display: flex;
+  }
+
+  .leftOrmawa {
+    row-gap: 20px;
+  }
+
+  .divOrmawa {
+    min-width: 90px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-align: justify;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .divOrmawa > a {
+    font-size: 18px;
+  }
+
+  .rightOrmawa {
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 5px;
+    color: #373b4d;
+    text-align: justify;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .imgOrmawa {
+    width: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .leftOrmawa > h4 {
+    font-size: 32px;
+  }
+
+}
+
+@media screen and (min-width: 1270px) {
+  #Ormawa {
+    padding-top: 20px;
+  }
+
+  .h4AtasOrmawa {
+    font-size: 36px;
+  }
+
+  .containerOrmawa {
+    padding: 30px 50px 30px 50px;
+    display: flex;
+  }
+
+  .containerAkuCuciin {
+    padding: 30px 50px ;
+    display: flex;
+  }
+
+  .leftOrmawa {
+    row-gap: 30px;
+  }
+
+  .divOrmawa {
+    min-width: 100px;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: justify;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .divOrmawa > a {
+    font-size: 24px;
+  }
+
+  .rightOrmawa {
+    font-size: 24px;
+    padding: 30px;
+    padding-top: 5px;
+    color: #373b4d;
+    text-align: justify;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .imgOrmawa {
+    width: 700px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .leftOrmawa > h4 {
+    font-size: 40px;
+  }
+
+}

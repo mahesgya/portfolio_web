@@ -1,0 +1,173 @@
+.container-Slide h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: montserrat;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .container-slide {
+    position: relative;
+    height: 100%;
+  }
+  
+  .Swiper-Proker {
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+  
+    display: flex;
+  }
+  
+  .mySwiper-Proker {
+    width: 1300px;
+    height: 400px;
+    padding: 50px;
+  }
+  
+  .Swiper-Proker img {
+    width: 1000px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .container-Slide h1 {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  
+    .Swiper-Proker {
+      width: 550px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .mySwiper-Proker {
+      width: 550px;
+      height: 280px;
+      padding: 50px;
+    }
+  
+    .Swiper-Proker img {
+      width: 500px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container-Slide h1 {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  
+    .Swiper-Proker {
+      width: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .mySwiper-Proker {
+      width: 370px;
+      height: 200px;
+      padding: 50px;
+    }
+  
+    .Swiper-Proker img {
+      width: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .container-Slide h1 {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+  
+    .Swiper-Proker {
+      width: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .mySwiper-Proker {
+      width: 700px;
+      height: 300px;
+      padding: 50px;
+    }
+  
+    .Swiper-Proker img {
+      width: 600px;
+    }
+  }
+  
+  @media screen and (min-width: 920px) {
+    .container-Slide h1 {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+  
+    .Swiper-Proker {
+      width: 900px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .mySwiper-Proker {
+      width: 900px;
+      height: 400px;
+      padding: 50px;
+    }
+  
+    .Swiper-Proker img {
+      width: 700px;
+    }
+  }
+  
+  @media screen and (min-width: 1270px) {
+    .container-Slide h1 {
+      color: #fff;
+      text-align: center;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+      font-size: 40px;
+      font-family: montserrat;
+      letter-spacing: 5px;
+      font-weight: 900;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    
+    .container-slide {
+      position: relative;
+      height: 100%;
+    }
+    
+    .Swiper-Proker {
+      background-position: center;
+      background-size: cover;
+      width: 1000px;
+    
+      display: flex;
+    }
+    
+    .mySwiper-Proker {
+      width: 1300px;
+      height: 500px;
+      padding: 50px;
+    }
+    
+    .Swiper-Proker img {
+      width: 900px;
+    }
+  }
+  
